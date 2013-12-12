@@ -1,0 +1,31 @@
+{
+  "name": "ansi-moedict",
+  "version": "0.0.1",
+  "description": "draw moedict-style ansi-art in your terminal",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-canvas": "~0.0.2",
+    "commander": "~2.1.0"
+  },
+  "devDependencies": {
+    "LiveScript": "~1.2.x",
+  },
+  "scripts": {
+    "prepublish": "lsc -c index.ls",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yhsiang/ansi-moedict"
+  },
+  "keywords": [
+    "moedict",
+    "ansi-canvas",
+    "ansi-art"
+  ],
+  "author": "Yuanhsiang Cheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yhsiang/ansi-moedict/issues"
+  }
+}
