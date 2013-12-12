@@ -1,10 +1,10 @@
 {
   "name": "ansi-moedict",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "draw moedict-style ansi-art in your terminal",
   "main": "lib/index.js",
   "bin": {
-    "amt": "./bin/amt"
+    "am": "./bin/am"
   },
   "dependencies": {
     "ansi-canvas": "~0.0.2",

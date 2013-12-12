@@ -18,7 +18,7 @@ $npm install ansi-moedict
 
 max 3 words (if your screen is wider, it will be more than 3 words)
 ```
-$ amt 拆政府
+$ ./node_module/.bin/am 拆政府
 ```
 ![](http://imgur.com/3QvJ0LK.png)
 
