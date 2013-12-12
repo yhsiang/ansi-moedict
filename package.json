@@ -21,9 +21,12 @@
   "keywords": [
     "moedict",
     "ansi-canvas",
-    "ansi-art"
+    "ansi-art",
+    "ansi",
+    "terminal",
+    "canvas"
   ],
-  "author": "Yuanhsiang Cheng",
+  "author": "Yuanhsiang Cheng <lyforever62@hotmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yhsiang/ansi-moedict/issues"
