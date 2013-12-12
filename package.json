@@ -1,8 +1,11 @@
 {
   "name": "ansi-moedict",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "draw moedict-style ansi-art in your terminal",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "amt": "./bin/amt"
+  },
   "dependencies": {
     "ansi-canvas": "~0.0.2",
     "commander": "~2.1.0"
@@ -11,7 +14,7 @@
     "LiveScript": "~1.2.x"
   },
   "scripts": {
-    "prepublish": "lsc -c index.ls",
+    "prepublish": "lsc -c lib/index.ls",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

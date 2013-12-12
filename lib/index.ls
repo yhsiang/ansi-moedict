@@ -73,15 +73,10 @@ program
   .version \0.0.1
 
 program
-  .command 'moedict [words]' 
+  .command '*' 
   .description 'draw moedict canvas (max 3 words)'
   .action ->
     text2png it
-
-program
-  .command \*
-  .action ->
-    console.log 'please enter a valid command'
 
 program.parse process.argv
 
