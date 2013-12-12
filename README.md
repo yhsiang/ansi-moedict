@@ -5,6 +5,7 @@ Draw moedict-style ansi-art in your terminal
 ### Dependencies
 
 ansi-canvas
+
 commander
 
 ### Usage
