@@ -12,11 +12,11 @@ commander
 Help
 
 ```
-$ node app.js -h
+$ node index.js -h
 ```
 Command
 ```
-$ node app.js moedict 拆政府
+$ node index.js moedict 拆政府
 ```
 ![](http://imgur.com/3QvJ0LK.png)
 ### License
