@@ -4,9 +4,9 @@ Draw moedict-style ansi-art in your terminal
 
 ### Dependencies
 
-ansi-canvas
+[ansi-canvas](https://github.com/TooTallNate/ansi-canvas)
 
-commander
+[commander](https://npmjs.org/package/commander)
 
 ### Usage
 
