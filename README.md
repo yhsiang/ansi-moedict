@@ -8,16 +8,17 @@ Draw moedict-style ansi-art in your terminal
 
 [commander](https://npmjs.org/package/commander)
 
+### Install
+
+```
+$npm install ansi-moedict
+```
+
 ### Usage
 
-Help
-
+max 3 words (if your screen is wider, it will be more than 3 words)
 ```
-$ node index.js -h
-```
-Command
-```
-$ node index.js moedict 拆政府
+$ amt 拆政府
 ```
 ![](http://imgur.com/3QvJ0LK.png)
 
