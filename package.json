@@ -8,7 +8,7 @@
     "commander": "~2.1.0"
   },
   "devDependencies": {
-    "LiveScript": "~1.2.x",
+    "LiveScript": "~1.2.x"
   },
   "scripts": {
     "prepublish": "lsc -c index.ls",
